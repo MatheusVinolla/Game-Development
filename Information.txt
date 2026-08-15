@@ -1,0 +1,19 @@
+LOVE2D FUNCTIONS:
+
+GRAPHICS()
+- love.graphics.printf(msg, x, y, [width], [align])
+- love.graphics.setDefaultFilter('nearest', 'nearest')
+ 
+RANDOM()
+- love.window.setMode(REAL_WIDTH, REAL_HEIGHT, { resizable = false, vsync = true, fullscreen = false})
+- love.event.quit()
+ 
+DEFINITION:
+- love.keypressed(key)
+- love.load()
+- love.draw()
+ 
+PUSH:
+- push.start()
+- push.finish()
+- push.setupScreen(VIRTUAL_WIDTH, VIRTUAL_HEIGHT, { upscale = 'normal'})
