@@ -2,7 +2,14 @@ LOVE2D FUNCTIONS:
 
 GRAPHICS()
 - love.graphics.printf(msg, x, y, [width], [align])
+- love.graphics.print(msg, x, y)
+
 - love.graphics.setDefaultFilter('nearest', 'nearest')
+- love.graphics.rectangle(['fill'/'line'], x, y, [width], [tall])
+- love.graphics.clear(r, g, b, a)
+
+- object_font = love.graphics.newFont(path, size)
+- love.graphics.setFont(font)
  
 RANDOM()
 - love.window.setMode(REAL_WIDTH, REAL_HEIGHT, { resizable = false, vsync = true, fullscreen = false})
